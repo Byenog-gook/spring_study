@@ -1,0 +1,22 @@
+git init 
+
+git 폴더 설정
+
+git remote add origin 깃주소
+
+git 저장소랑 폴더 연동하기
+
+git pull origin master
+한마디로 저장소에있는 모든 자료를 폴더로 끌고오는것을 말함
+
+git status
+현재 나의 git과 폴더의 상태를 Check해주는 명령어이다.
+
+git add  .
+변경된 파일들을 모두 Tracking!
+
+git commit -m "message"
+인식할수있는 commit을 달아준다.
+
+git push origin +master
+실제로 git에다가 push를 요청하는 명령어이다.
